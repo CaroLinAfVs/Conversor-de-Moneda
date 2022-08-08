@@ -1,0 +1,79 @@
+
+h1,
+h3,
+h4, 
+input,
+option {
+    font-family: 'Nunito', sans-serif;
+
+}
+
+html{
+    background-color: rgb(9, 10, 10);
+}
+.title{
+    text-align: center;
+    color: white;
+}
+hr{
+    border-color: rgb(50, 50, 52);
+}
+
+h4{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(140, 138, 138);
+    align-items: center;
+    width: 260px;
+    height: 280px;
+}
+.pesosCLP h3{
+    color: white;
+    margin-bottom: 3px;
+    font-size: 22px;
+}
+.pesosCLP input{
+    padding: 6px;
+    border: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.change-money select{
+    width: 157px;
+    margin-bottom: 12px;
+    padding: 6px;
+    border: 1px;
+    border-radius: 3px;
+    text-align: center;
+    color: grey;
+}
+
+button{
+    width: 157px;
+    padding: 6px;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(66, 181, 223);
+}
+.result h3{
+    color: white;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.grafic{
+    width: 800px;
+    margin-top: 20px;
+}
